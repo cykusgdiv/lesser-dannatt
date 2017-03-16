@@ -1,5 +1,0 @@
-# default is auto
-text=auto
-
-# LF endings enforced just for dsl files in dict directory
-*.dsl text eol=lf
