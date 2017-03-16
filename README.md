@@ -1,23 +1,16 @@
 # lesser-dannatt
 
-## How to run
+An Old Icelandic to English dictionary built with Electron.
 
-1.	[Download](https://github.com/GreekFellows/lesser-dannatt/archive/build.zip) the `build` branch as a zip.
+The dictionary data are from a digitized version of Geir Tómasson Zoëga's _A Concise Dictionary of Old Icelandic_, kindly provided by Tim Ermolaev (stridmann at gmail dot com).
 
-1.	Unzip and navigate to `lesser-dannatt-build/out/`.
+## How to download and run
 
-1.	Find the directory that matches your operating system and architecture.
+1.	Go to [Releases](https://github.com/GreekFellows/lesser-dannatt/releases) and find a release.
 
-	**Note:** The project cannot be built for 32-bit Mac OS on my computer. You will have to build it by yourself.
+1.	Find the zip file that matches your operating system and architecture.
 
-|Directory|Platform|Architecture|
-|---|---|---|
-|`lesser-dannatt-win32-ia32`|Windows|32-bit|
-|`lesser-dannatt-win32-x64`|Windows|64-bit|
-|~~`lesser-dannatt-darwin-ia32`~~|~~Mac OS~~|~~32-bit~~|
-|`lesser-dannatt-darwin-x64`|Mac OS|64-bit|
-|`lesser-dannatt-linux-ia32`|Linux|32-bit|
-|`lesser-dannatt-linux-x64`|Linux|64-bit|
+1.	Download, unzip and run the executable inside.
 
 ## How to build
 
@@ -54,6 +47,8 @@
 	```sh
 	electron-packager . --out=out --platform=linux
 	```
+
+	For more information on how to use `electron-packager`, see their [README](https://github.com/electron-userland/electron-packager#usage).
 
 1.	The project is built in the `out` directory.
 
