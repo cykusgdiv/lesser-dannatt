@@ -1,6 +1,27 @@
 # lesser-dannatt
 
+## How to run
+
+1.	[Download](https://github.com/GreekFellows/lesser-dannatt/archive/build.zip) the `build` branch as a zip.
+
+1.	Unzip and navigate to `lesser-dannatt-build/out/`.
+
+1.	Find the directory that matches your operating system and architecture.
+
+	**Note:** The project cannot be built for 32-bit Mac OS on my computer. You will have to build it by yourself.
+
+|Directory|Platform|Architecture|
+|---|---|---|
+|`lesser-dannatt-win32-ia32`|Windows|32-bit|
+|`lesser-dannatt-win32-x64`|Windows|64-bit|
+|~~`lesser-dannatt-darwin-ia32`~~|~~Mac OS~~|~~32-bit~~|
+|`lesser-dannatt-darwin-x64`|Mac OS|64-bit|
+|`lesser-dannatt-linux-ia32`|Linux|32-bit|
+|`lesser-dannatt-linux-x64`|Linux|64-bit|
+
 ## How to build
+
+1.	[Download](https://github.com/GreekFellows/lesser-dannatt/archive/master.zip) the repository as a zip. Navigate inside the unzipped repository.
 
 1.	Install `electron-packager` if you have not yet done so:
 

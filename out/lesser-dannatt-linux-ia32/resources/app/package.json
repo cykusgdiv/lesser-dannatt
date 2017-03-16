@@ -1,0 +1,15 @@
+{
+	"name": "lesser-dannatt",
+	"version": "0.1.0",
+	"description": "Electron-based Zoega dictionary",
+	"main": "main.js",
+	"author": "greekfellows",
+	"license": "MIT",
+	"dependencies": {
+		"bootstrap": "https://github.com/twbs/bootstrap/tarball/v4-dev",
+		"jquery": "3.1.1"
+	},
+	"devDependencies": {
+		"electron": "1.6.1"
+	}
+}
